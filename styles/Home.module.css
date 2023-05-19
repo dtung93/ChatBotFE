@@ -1,0 +1,37 @@
+.myLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10;
+}
+.fullBody {
+  align-items: center;
+  justify-content: center;
+}
+.header2 {
+  margin-left: 20px;
+  text-align: center;
+  right: 400px;
+}
+.rowTitle {
+  border: 2px solid #708090;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  background-color: #2b2e33;
+  color: skyblue;
+  width: 500px;
+  height: 60px;
+  line-height: 60px;
+}
+.childCompo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  cursor: pointer;
+  
+}

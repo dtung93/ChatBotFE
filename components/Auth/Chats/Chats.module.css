@@ -1,0 +1,77 @@
+.messageContainer {
+  overflow-y: scroll;
+  margin-bottom: 2em;
+}
+.messageContainer > div {
+  display: flex;
+  flex-direction: column;
+}
+.messageContainer .message {
+  max-width: 400px;
+  padding: 0.5em;
+  border-radius: 17px;
+  overflow-wrap: break-word;
+}
+.messageContainer .user {
+  background: #e5dfdf;
+  color: #393e46;
+  align-self: flex-end;
+}
+.messageContainer .bot {
+  background: #393e46;
+  color: #f7f7f7;
+  align-self: flex-start;
+}
+.messageContainer .options {
+  background: #353739;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  max-width: 84.5%;
+}
+.messageContainer .options > div:first-child {
+  font-size: 1.3em;
+  margin: 0.7em 0.7em 0.9em 0.3em;
+  transform: rotate(90deg);
+}
+.messageContainer .options > div:first-child i {
+  color: #393e46;
+  animation: arrow-move 1.2s infinite;
+}
+@keyframes arrow-move {
+  0% {
+    transform: translateY(4px);
+ }
+  50% {
+    transform: translateY(0);
+ }
+  100% {
+    transform: translateY(4px);
+ }
+}
+.messageContainer .options p {
+  padding: 0.5em;
+  margin-right: 0.8em;
+  background: #393e46;
+  color: #f7f7f7;
+  align-self: flex-start;
+  border-radius: 17px;
+  
+}
+.messageContainer .options p:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.messageContainer .dummyDiv {
+  padding: 0.5em 0;
+}
+.responseBot{
+  position: relative;
+}
+.myLogo{
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  
+
+}
